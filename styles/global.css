@@ -2,12 +2,11 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: white;
-
-    background-color: #ffe86e;
+    /* font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+    /* font-weight: bold; */
+    /* font-variant: small-caps; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffadd;
 }
 
 .center {
@@ -22,6 +21,7 @@ body {
 
 .text-big {
     font-size: 32pt;
+    color: #86714b;
 }
 
 .text-medium {
@@ -32,26 +32,30 @@ body {
     font-size: 16pt;
 }
 
-.stroke {
+/* .stroke {
     text-shadow: -1pt -1pt 0 black,
                  -1pt  1pt 0 black,
                   1pt -1pt 0 black,
                   1pt  1pt 0 black;
-}
+} */
 
 #header {
     flex-flow: row;
     width: 99%;
     height: 50px;
     padding: 0 0.5%;
-    background-color: purple;
+    background-color: #FFFADD;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 69;
+    color: #574931;
 }
 
 #nav-dropdown {
     position: relative;
     width: 50px;
     height: 100%;
-    background-color: red;
+    background-color: #FFFADD;
 }
 
 #nav-menu {
@@ -59,33 +63,32 @@ body {
     flex-flow: column;
     position: absolute;
     top: 50px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    background-color: aquamarine;
-    z-index: 69;
+    /* border-style: solid; */
+    border-width: 0px;
+    width: 150px;
 }
 
 #nav-menu a {
     padding: 10px;
     border-style: solid;
-    border-width: 1px;
-    border-color: black;
+    border-width: 0px;
+    /* border-color: #3d3d3d; */
     text-decoration: none;
-    background-color: green;
+    background-color: #86714b;
     color: white;
 }
 
 #nav-menu a:hover {
-    background-color: lightgreen;
+    background-color:#574931;
 }
 
 #nav-dropdown:hover #nav-menu {
     display: flex;
+    z-index: 69;
 }
 
 #title {
-    background-color: blue;
+    background-color: #FFFADD;
     flex: 1;
     height: 100%;
 }
@@ -99,5 +102,30 @@ body {
 #contents {
     display: flex;
     flex-flow: column;
-    background-color: orange;
+    background-color: #FFFADD;
+    z-index: 0;
+    color: #3d3d3d;
+}
+
+#contents2 {
+    display: flex;
+    flex-flow: column;
+    background-color: #FFFADD;
+    z-index: 0;
+    padding: 10%;
+    color: #3d3d3d;
+}
+#footer{
+    background-color: #86714b;
+    color: white;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    padding: 40px 0px 0px 0px;
+    box-shadow: 0 -4px 2px -2px rgba(0,0,0,.2);
+    text-align: center
+}
+
+#pad{
+    height: 50px;
 }

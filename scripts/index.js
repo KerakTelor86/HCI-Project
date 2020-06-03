@@ -39,13 +39,3 @@ $(document).ready(function() {
         setImg(1);
     });
 });
-
-$("#slider").hide();
-setInterval(function() {
-    $('#slider')
-      .fadeOut(1000)
-      .next()
-      .fadeIn(1000)
-      .end()
-      .appendTo('#slider');
-    }, 3000);

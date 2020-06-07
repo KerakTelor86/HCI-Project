@@ -1,6 +1,6 @@
 images = [
     {
-        file: "banners/1.png",
+        file: "banners/4.jpg",
         description: "First art auction held online!"
     },
     {

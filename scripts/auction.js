@@ -1,53 +1,53 @@
 var auctions = [
     {
         type: 'ongoing',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/great_wave_off_kanagawa.jpg',
         bid: 250,
         date: new Date(2020, 6, 12),
     },
     {
         type: 'ongoing',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/wp2643399-fine-art-wallpaper-hd.jpg',
         bid: 420,
         date: new Date(2020, 8, 13),
     },
     {
         type: 'ongoing',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/187.jpg',
         bid: 69,
         date: new Date(2020, 7, 31),
     },
     {
         type: 'ongoing',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/the-persistence-of-memory.jpg',
         bid: 250,
         date: new Date(2020, 6, 12),
     },
     {
         type: 'ongoing',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/luteplayer_v2.jpg',
         bid: 420,
         date: new Date(2020, 8, 13),
     },
     {
         type: 'ongoing',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/9870331_horse-head-metal-art-2-mari9art.jpg',
         bid: 69,
         date: new Date(2020, 7, 31),
     },
     {
         type: 'upcoming',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/additional_eb195522e27119929812715efd380494061243c8-8.jpg',
         date: new Date(2020, 6, 12),
     },
     {
         type: 'upcoming',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/starry_night_full.jpg',
         date: new Date(2020, 6, 12),
     },
     {
         type: 'upcoming',
-        file: 'auctions/placeholder.png',
+        file: 'auctions/the-void_1920.jpg',
         date: new Date(2020, 6, 12),
     },
 ]

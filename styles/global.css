@@ -76,10 +76,10 @@ body {
 
 
 .stroke {
-    text-shadow: -1pt -1pt 0 black,
-                 -1pt  1pt 0 black,
-                  1pt -1pt 0 black,
-                  1pt  1pt 0 black;
+    text-shadow: -1pt -1pt 0 white,
+                 -1pt  1pt 0 white,
+                  1pt -1pt 0 white,
+                  1pt  1pt 0 white;
 }
 
 #header {

@@ -4,9 +4,10 @@ body {
 
     /* font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     /* font-weight: bold; */
-    /* font-variant: small-caps; */
+    font-variant: small-caps;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fffadd;
+    color: #86714b;
 }
 
 .center {
@@ -21,7 +22,6 @@ body {
 
 .text-big {
     font-size: 32pt;
-    color: #86714b;
 }
 
 .text-medium {
@@ -32,12 +32,35 @@ body {
     font-size: 16pt;
 }
 
-/* .stroke {
+.text-mini {
+    font-size: 12pt;
+}
+
+@media screen and (max-width: 800px){
+    .text-big {
+        font-size: 24pt;
+    }
+
+    .text-medium {
+        font-size: 16pt;
+    }
+
+    .text-small {
+        font-size: 12pt;
+    }
+
+    .text-mini {
+        font-size: 10pt;
+    }
+}
+
+
+.stroke {
     text-shadow: -1pt -1pt 0 black,
                  -1pt  1pt 0 black,
                   1pt -1pt 0 black,
                   1pt  1pt 0 black;
-} */
+}
 
 #header {
     flex-flow: row;
@@ -48,7 +71,6 @@ body {
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.2);
     position: absolute;
     z-index: 69;
-    color: #574931;
 }
 
 #nav-dropdown {
@@ -63,16 +85,14 @@ body {
     flex-flow: column;
     position: absolute;
     top: 50px;
-    /* border-style: solid; */
-    border-width: 0px;
-    width: 150px;
+    border-style: solid;
+    border-width: 5px;
 }
 
 #nav-menu a {
     padding: 10px;
     border-style: solid;
-    border-width: 0px;
-    /* border-color: #3d3d3d; */
+    border-width: 1px;
     text-decoration: none;
     background-color: #86714b;
     color: white;
@@ -115,7 +135,8 @@ body {
     padding: 10%;
     color: #3d3d3d;
 }
-#footer{
+
+#footer {
     background-color: #86714b;
     color: white;
     width: 100%;
@@ -126,6 +147,6 @@ body {
     text-align: center
 }
 
-#pad{
+.pad{
     height: 50px;
 }

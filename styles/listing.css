@@ -1,0 +1,44 @@
+.listing {
+    display: flex;
+    flex-flow: row wrap;
+    width: 60%;
+    padding: 10px;
+    background-color: #86714b;
+    border-style: solid;
+    border-width: 1px;
+    justify-content: center;
+}
+
+.listing-item {
+    display: flex;
+    flex-flow: column;
+    width: 31%;
+    margin: 1%;
+    background-color: #fffadd;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.listing-img {
+    margin: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.listing-desc {
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px){
+    .listing {
+        width: 80%;
+    }
+
+    .listing-item {
+        width: 48%;
+        margin: 1%;
+    }
+}

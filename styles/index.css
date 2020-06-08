@@ -44,6 +44,14 @@
     top: 1%;
 }
 
+
 #slider-desc {
-    padding: 0 5%;
+    bottom: 0px;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-image: linear-gradient(transparent, #fffadd);
+    opacity: 0.9;
 }

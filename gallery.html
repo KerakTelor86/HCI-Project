@@ -12,42 +12,55 @@
     <div id="header" class="center">
         <div id="nav-dropdown" class="center">
             <a href="#">
-                <img class="fill" src="assets/nav-btn-fixed.png" alt="navbar-toggle">
+                <img class="fill" src="assets/nav-btn.png" alt="navbar-toggle">
             </a>
             <div id="nav-menu">
-                <a class="stroke text-small" href="index.html">
+                <a class="text-small" href="index.html">
                     Home
                 </a>
-                <a class="stroke text-small" href="auction.html">
+                <a class="text-small" href="auction.html">
                     Auction
                 </a>
-                <a class="stroke text-small" href="gallery.html">
+                <a class="text-small" href="gallery.html">
                     Gallery
                 </a>
-                <a class="stroke text-small" href="registration.html">
+                <a class="text-small" href="registration.html">
                     Registration
                 </a>
-                <a class="stroke text-small" href="about.html">
+                <a class="text-small" href="about.html">
                     About
                 </a>
             </div>
         </div>
         <div id="title" class="center">
             <img id="logo" src="assets/logo.png" alt="logo">
-            <p class="stroke text-big">Fancy Art</p>
+            <p class="text-medium">Fancy Art</p>
         </div>
     </div>
 
     <div id="contents" class="center">
         <div id="pad"></div>
-        <p class="stroke text-big">Placeholder</p>
+
+        <p class="text-medium">Paintings</p>
+        <div id="paintings" class="listing"></div>
+
+        <p class="text-medium">Sculptures</p>
+        <div id="sculptures" class="listing"></div>
+
+        <p class="text-medium">Photographs</p>
+        <div id="photographs" class="listing"></div>
+
+        <div id="pad"></div>
     </div>
 
     <div id="footer">
         Copyright © Fancy Art. All rights reserved.
     </div>
 
+    <script src="scripts/gallery.js"></script>
+
     <link rel="stylesheet" type="text/css" href="styles/global.css">
+    <link rel="stylesheet" type="text/css" href="styles/listing.css">
 </body>
 
 </html>

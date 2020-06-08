@@ -36,6 +36,26 @@ body {
     font-size: 12pt;
 }
 
+
+.pagetitle {
+    color: #574931;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.posttitle {
+    color: #86714b;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.post{
+    font-variant: normal;
+}
+
 @media screen and (max-width: 800px){
     .text-big {
         font-size: 24pt;
@@ -132,9 +152,27 @@ body {
     flex-flow: column;
     background-color: #FFFADD;
     z-index: 0;
-    padding: 10%;
     color: #3d3d3d;
+    padding: 5% 10%;
 }
+
+
+#contents3 {
+    display: flex;
+    flex-flow: column;
+    z-index: 0;
+    color: #3d3d3d;
+    padding: 5% 10%;
+    width: 70%;
+    background-color: white;
+    margin:0 5%;
+    box-shadow: 0 5px 5px 5px rgba(0,0,0,.2);
+}
+
+#contents3 .text-medium{
+    color: #86714b;
+}
+
 
 #footer {
     background-color: #86714b;

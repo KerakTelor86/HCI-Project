@@ -11,7 +11,7 @@
 See assets/logo.png
 
 ## Pages
-### Home / Index
+### Home
 ```
 Files: index.html, index.css, index.js, global.css
 Main image slider uses jQuery as required by the problem statement.

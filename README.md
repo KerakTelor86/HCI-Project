@@ -1,4 +1,4 @@
-# COMP6176 Group Project
+# COMP6176 - Human and Computer Interaction - Final Project
 
 ## Colors
 - #FFFFFF

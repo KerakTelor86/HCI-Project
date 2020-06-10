@@ -1,15 +1,15 @@
 images = [
     {
-        file: "banners/1.png",
-        description: "First art auction held online!"
+        file: "banners/1.jpg",
+        description: "Art Jakarta 2021 - Coming Soon"
     },
     {
-        file: "banners/2.png",
-        description: "Second art auction held online!"
+        file: "banners/2.jpg",
+        description: "March's Auction in New York!"
     },
     {
-        file: "banners/3.png",
-        description: "Send help please"
+        file: "banners/3.jpg",
+        description: "What You've Been Waiting For: Peru's Branch Birthday Auction!"
     }
 ]
 

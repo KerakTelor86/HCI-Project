@@ -1,4 +1,4 @@
-# Fancy Art - Dokumentasi HCI Project 
+# COMP6176 Group Project
 
 ## Colors
 - #FFFFFF
